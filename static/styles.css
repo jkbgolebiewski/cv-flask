@@ -92,8 +92,9 @@
 /* Main tags */
 
 body {
-	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
-	margin: 0;
+    background: linear-gradient(to bottom, #1b1b1b, #111);
+    color: #e4e3e8; /* Ensures text remains readable */
+    margin: 0;
 }
 
 h1,h2,h3, h4 {
