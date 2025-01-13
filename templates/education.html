@@ -2,7 +2,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-{% set title = "Education 🍜" %}
+{% set title = "Edukacja" %}
 {% set profile = 0 %}
 <title>{{title}}</title>
 <div id="content_container">
@@ -11,7 +11,7 @@
         <h1>{{title}}</h1>
     </div>
     <!-- INSTITUTIONS -->
-    {% for key, value in info['education'].items() %}
+    {% for key, value in info['edukacja'].items() %}
     <div class="block">
         <h2>{{key}}</h2>
         <ul>

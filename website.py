@@ -4,15 +4,32 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-developer = os.getenv("DEVELOPER", "Fer González")
-environment = os.getenv("ENVIRONMENT", "development")
+developer = os.getenv("DEVELOPER", "Jakub Gołębiewski")
+environment = "development"
 
-with open('info.yml') as f:
-    info = yaml.load(f, Loader=yaml.FullLoader)
+# Load info.yml file
+with open('info.yml', encoding='utf-8') as f:
+    try:
+        info = yaml.load(f, Loader=yaml.FullLoader)
+    except yaml.YAMLError as e:
+        print(f"Error loading YAML file: {e}")
+        info = {}
 
 
 @app.route("/")
 def profile():
+    # Validate keys within info for 'profile' and 'other'
+    profile_data = info.get("profile", {})
+    other_data = profile_data.get("other", {})
+
+    # Ensure 'other' is a dictionary, fallback to an empty dict if not
+    if not isinstance(other_data, dict):
+        other_data = {}
+
+    # Pass updated info object with validated data
+    profile_data['other'] = other_data
+    info["profile"] = profile_data
+
     return render_template("profile.html", info=info)
 
 
@@ -24,7 +41,6 @@ def education():
 @app.route("/experience")
 def experience():
     return render_template("experience.html", info=info)
-
 
 if __name__ == "__main__":
     debug = False

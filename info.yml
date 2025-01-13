@@ -1,58 +1,44 @@
 bar:
-  picture: https://twitter.com/Hotfixr/photo
-  bio: Six years developing software, experience with Java, Python, Swift, C/C++, blockchain, IoT and Cloud Architecture, as well as Scrum and DevOps practices.
-  twitter: https://twitter.com/hotfixr
-  linkedin: https://www.linkedin.com/in/fernandagonzalez95/
+  bio: IT Support z pasją do ułatwiania procesów.
+  linkedin: https://www.linkedin.com/in/jakub-go%C5%82%C4%99biewski-a788b3240/
+  facebook: https://www.facebook.com/hopeusz
 
 profile:
-  about: Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.
+  about: Pracuję jako specjalista IT, który od wsparcia użytkowników końcowych w codziennych problemach, powoli przechodzi do wsparcia zespołu w automatyzacji i obsługi powtarzalnych zadań w obsługiwanych systemach. Doświadczenie w pracy z użytkownikami i styczność z ich codziennymi problemami umożliwiła mi poznanie środowiska administracyjnego zarówno od środka jak i z zewnątrz, co usystematyzowało wiedzę i zapewniło solidne fundamenty do dalszego rozwoju w IT.
 
   contact:
-    phone: +502 3125 6922
-    email: fernandagonzalez@ufm.edu
-    address: Guatemala City, Guatemala
+    phone: +48 503 996 133
+    email: jkb.golebiewski@gmail.com
+    address: Warszawa Mokotów
 
-  other:
-    Full name: María Fernanda González Dávila
-    Civil status: single
-    🎂 Birthday: 1995-07-15 (24 years old)
-    Nationality: Guatemalan
+  zainteresowania:
+    - Gry Wideo - Karciane, Roguelike, RPG
+    - Technologie - Administracja własnym serwerem domowyn,
+    - Pozostałości z pierwszego kierunku studiów - Socjologia, Filozofia, Historia
 
-  interests:
-    - Manga and Anime
-    - Criterion Collection
-    - Analogue photography
-    - Cyberpunk
-    - Poetry
+edukacja:
+  Akademia Mazowiecka w Płocku:
+    - Informatyka
+    - 2022-2024
+  Uniwersytet Warszawski:
+    - Artes Liberales
+    - 2017-2021
 
-education:
-  Universidad Francisco Marroquín:
-    - Undergrad
-    - Computer Science
-    - 2018-2021
-  Universidad del Valle de Guatemala:
-    - Undergrad
-    - Electronic Engineering
-    - 2014-2016
-
-experience:
-  Eureka Consulting Group:
-    - Chief Operations Officer
-    - 2019-today
-    - Getting things done for a guatemalan based global start-up.
-  Internet Society:
-    - IGF Youth Ambassador
-    - 2019-2020
-    - Ambassador at the UN's annual Internet Governance Forum in Berlin.
-  Power Puff Devs:
-    - Co-founder
-    - 2019-today
-    - Doing consulting and engineering for tomorrow's problems.
-  Sophos:
-    - Librarian
-    - 2017
-    - Experience doing cash work, writting book reviews and organizing cultural events and workshops.
-  Agrocentro:
-    - Logistics and Distribution trainee
-    - 2017
-    - Reporting, personnel and fleet management and control, seed management certified by Monsanto.
+doświadczenie:
+  RTB House (2024-obecnie):
+    - Automatyzacja zadań w GLPI za pomocą GLPI API (Python, Postman)
+    - Migracja Google Sheetów z licencjami do strony opartej na Flasku, podstawy baz danych (sqlite)
+    - Podstawy Gcloud (CLI, obsługa GAM, Google Cloud Repo)
+    - Współpraca z Administrative Assistants w celu wprowadzania nowych rozwiązań w GLPI oraz przygotowywanie odpowiednich danych z systemu.
+    - Uaktualnianie DokuWiki o margin case'y napotykane w trakcie obsługi użytkowników i tworzenie dokumentacji z zadań wymienionych powyżej
+  IT Solution Factor (2023-2024):
+    - Administracja Google Workspace (tworzenie użytkowników, grup mailowych, zarządzanie dostępami)
+    - Microsoft InTune (tworzenie maszyn wirtualnych, onboarding i offboarding użytkowników, zarządzanie dostępami)
+    - Podstawowa administracja Jenkins (nadawanie dostępów użytkownikom, obsługa skryptów onboardingowych/offboardingowych)
+    - Codzienny kontakt z zagranicznym zespołem i użytkownikami końcowymi (zgłoszenia za pomocą JIRA)
+    - Odpowiadanie za zespołową bazę wiedzy (JIRA Confluence), aktualizacje i regularne dodawanie nowych artykułów na temat procedur w dziale.
+  Własny HomeLab (2023-obecnie):
+    - Znajomość podstawowego zarządzania Ubuntu Server
+    - Podstawowa konfiguracja Reverse Proxy (nginx)
+    - Podstawowa konteneryzacja (Docker, portainer)
+    - Instalacja i konfiguracja usłu związanych z serwerem mediów i zarządzaniem plikami w chmurze. (SMB, Plex, Nextcloud, Transmission)

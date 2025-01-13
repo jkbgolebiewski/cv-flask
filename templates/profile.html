@@ -2,7 +2,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-{% set title = "Profile 🦠" %}
+{% set title = "Autoreklama" %}
 {% set profile = 0 %}
 <title>{{title}}</title>
 <div id="content_container">
@@ -10,17 +10,14 @@
     <div class="block">
         <h1>{{title}}</h1>
         <blockquote class="profile_quote">
-            <p>"My past is not a memory. It's a force at my back.
-                It pushes and steers. I may not always like where it leads me,
-                but like any story, the past needs resolution.
-                What's past is prologue."</p>
-            <p>Samus Aran (Metroid: Other M, 2010)</p>
+            <p>"I'm not perfect. Sometimes I volunteer too much. Sometimes I give too much to charity..."</p>
+            <p>Michael Scott (The Office)</p>
             <span class="entypo-quote"></span>
         </blockquote>
     </div>
     <!-- A FEW WORDS ABOUT ME -->
     <div class="block">
-        <h2>A few words about me</h2>
+        <h2>Kilka zdań o mnie:</h2>
         <p>{{info['profile']['about']}}</p>
     </div>
     <div class="horizontal_line">
@@ -32,31 +29,15 @@
     </div>
     <!-- LET'S GET IN CONTACT -->
     <div class="block">
-        <h2>Let's get in contact</h2>
-        <p class="purple">📱 Phone:</p>
+        <h2>Kontakt</h2>
+        <p class="purple">Telefon:</p>
         <p>{{info['profile']['contact']['phone']}}</p>
 
-        <p class="purple">📬 Email:</p>
-        <p><a href="mailto:{{info['profile']['contact']['email']}}">{{info['profile']['contact']['phone']}}</a></p>
+        <p class="purple">E-Mail:</p>
+        <p>{{info['profile']['contact']['email']}}</p>
 
-        <p class="purple">📍 Address:</p>
-        <p>{{info['profile']['contact']['address']}}</p>
-    </div>
-    <div class="horizontal_line">
-        <div class="line_left"></div>
-        <div class="left_circle"></div>
-        <div class="central_circle"></div>
-        <div class="right_circle"></div>
-        <div class="line_right"></div>
-    </div>
-    <!-- OTHER INFO -->
-    <div class="block">
-        <h2>Other info</h2>
-        {% for key, value in info['profile']['other'].items() %}
-        <ul>
-            <li><b>{{key}}: </b> {{value}}</li>
-        </ul>
-        {% endfor %}
+        <!--    <p class="purple">Address:</p>-->
+        <!--<p>{{info['profile']['contact']['address']}}</p>-->
     </div>
     <div class="horizontal_line">
         <div class="line_left"></div>
@@ -67,9 +48,9 @@
     </div>
     <!-- INTERESTS & HOBBIES -->
     <div class="last block">
-        <h2>Interests & Hobbies</h2>
-        <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
-        {% for value in info['profile']['interests'] %}
+        <h2>Hobby i zainteresowania:</h2>
+        <p>Głównie pogłębianie wiedzy z zakresu prowadzenia własnego HomeLabu i zajawki humanistyczne.</p>
+        {% for value in info['profile']['zainteresowania'] %}
         <ul>
             <li>{{value}}</li>
         </ul>
