@@ -19,9 +19,11 @@ profile:
 edukacja:
   Akademia Mazowiecka w Płocku:
     - Informatyka
+    - Podstawy C++, SQL,
     - 2022-2024
   Uniwersytet Warszawski:
     - Artes Liberales
+    - Filozofia, Kulturoznawstwo, Historiografia
     - 2017-2021
 
 doświadczenie:
@@ -31,14 +33,15 @@ doświadczenie:
     - Podstawy Gcloud (CLI, obsługa GAM, Google Cloud Repo)
     - Współpraca z Administrative Assistants w celu wprowadzania nowych rozwiązań w GLPI oraz przygotowywanie odpowiednich danych z systemu.
     - Uaktualnianie DokuWiki o margin case'y napotykane w trakcie obsługi użytkowników i tworzenie dokumentacji z zadań wymienionych powyżej
+    - Stworzenie prostych pluginów do przeglądarki usprawniających pracę zespołu (JavaScript)
   IT Solution Factor (2023-2024):
     - Administracja Google Workspace (tworzenie użytkowników, grup mailowych, zarządzanie dostępami)
-    - Microsoft InTune (tworzenie maszyn wirtualnych, onboarding i offboarding użytkowników, zarządzanie dostępami)
+    - Microsoft InTune (tworzenie maszyn wirtualnych, onboarding i offboarding użytkowników, nadawanie dostępów do grup)
     - Podstawowa administracja Jenkins (nadawanie dostępów użytkownikom, obsługa skryptów onboardingowych/offboardingowych)
     - Codzienny kontakt z zagranicznym zespołem i użytkownikami końcowymi (zgłoszenia za pomocą JIRA)
     - Odpowiadanie za zespołową bazę wiedzy (JIRA Confluence), aktualizacje i regularne dodawanie nowych artykułów na temat procedur w dziale.
   Własny HomeLab (2023-obecnie):
     - Znajomość podstawowego zarządzania Ubuntu Server
     - Podstawowa konfiguracja Reverse Proxy (nginx)
-    - Podstawowa konteneryzacja (Docker, portainer)
-    - Instalacja i konfiguracja usłu związanych z serwerem mediów i zarządzaniem plikami w chmurze. (SMB, Plex, Nextcloud, Transmission)
+    - Podstawowa konteneryzacja (Docker)
+    - Instalacja i konfiguracja uHi Hsług związanych z serwerem mediów i zarządzaniem plikami w chmurze. (SMB, Plex, Nextcloud, Transmission)
